@@ -7,8 +7,19 @@ int main()
 
     float a,b,c,m_z1,delta,m_z2;
 
+
+
     cout << "Podaj a: " << endl;
     cin>>a;
+
+
+
+while(a==0){
+    cout << "Podales 0. ";
+    cout << "Podaj a: " << endl;
+    cin>>a;
+}
+
 
     cout << "Podaj b: " << endl;
     cin>>b;
