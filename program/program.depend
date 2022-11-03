@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
-1667475859 source:c:\users\student.it\desktop\ps\program\main.cpp
+1667477412 source:c:\users\student.it\desktop\ps\program\main.cpp
 	<iostream>
+	<cmath>
 
