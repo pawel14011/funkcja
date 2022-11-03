@@ -12,12 +12,23 @@ int main()
     cout << "Podaj a: " << endl;
     cin>>a;
 
+if(a==0){
+
+ cout<<"jest to funkcja liniowa"<<endl;
 
 
-while(a==0){
-    cout << "Podales 0. ";
-    cout << "Podaj a: " << endl;
-    cin>>a;
+    cout << "Podaj b: " << endl;
+    cin>>b;
+
+    cout << "Podaj c: " << endl;
+    cin>>c;
+
+
+     m_z1 = -c/b;
+     cout<<"miejsce zerowe to "<<m_z1<<endl;
+
+
+
 }
 
 
