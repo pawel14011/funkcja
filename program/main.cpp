@@ -5,11 +5,11 @@ using namespace std;
 int main()
 {
 
-    float a,b,c,m_z1,delta,m_z2,odp,m_z;
+    float a,b,c,m_z1,delta,m_z2,odp,m_z,p,q;
 
 
     cout<<"Wybierz: "<<endl;
-    cout<<"1 -> Liniowa: \n2 -> Kwadratowa: "<<endl;
+    cout<<"1 -> Liniowa: \n2 -> Kwadratowa: \n3 -> Zamiana kanoniczna na ogolna"<<endl;
     cin>>odp;
 
 
@@ -95,6 +95,43 @@ int main()
 
         }else cout<<"Blad"<<endl;
 
+
+
+    }else if (odp == 3){
+
+  cout<<"Wybrales zamiane funkcji kanonicznej na liniowa"<<endl;
+
+    cout << "Podaj a: " << endl; cin>>a;
+
+    cout << "Podaj p: " << endl; cin>>p;
+
+    cout << "Podaj q: " << endl; cin>>q;
+
+float drugie = -2*a*p;
+float trzecie = (a*p*p)+q;
+
+cout<<drugie<<endl;
+cout<<trzecie<<endl;
+
+
+
+
+
+
+    if (drugie > 0 && trzecie > 0)
+        cout<<"Funkcja ogolna to "<<a<<"x*x +"<<drugie<<"x +"<<trzecie<<endl;
+
+
+    else cout<<"Funkcja ogolna to "<<a<<"x*x "<<drugie<<"x "<<trzecie<<endl;
+
+
     }
+
+
+
+
+
+
+
  return 0;
 }
