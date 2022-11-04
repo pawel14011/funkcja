@@ -107,6 +107,25 @@ int main()
 
     cout << "Podaj q: " << endl; cin>>q;
 
+float drugie = -2*a*p;
+float trzecie = (a*p*p)+q;
+
+cout<<drugie<<endl;
+cout<<trzecie<<endl;
+
+
+
+
+
+
+    if (drugie > 0 && trzecie > 0)
+        cout<<"Funkcja ogolna to "<<a<<"x*x +"<<drugie<<"x +"<<trzecie<<endl;
+
+
+    else cout<<"Funkcja ogolna to "<<a<<"x*x "<<drugie<<"x "<<trzecie<<endl;
+
+
+    }
 
 
 
